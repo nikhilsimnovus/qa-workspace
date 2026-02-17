@@ -30,7 +30,7 @@
       "id": "sim-qa-server",
       "name": "QA Server",
       "serverUrl": "http://192.168.1.95/v2",
-      "description": "QA Testing Environment - 192.168.1.95",
+      "description": "QA Testing Environment",
       "location": "QA Lab",
       "createdAt": "2026-02-17T00:00:00.000Z",
       "createdBy": "QA-User",
@@ -40,8 +40,39 @@
       "id": "sim-dell-server",
       "name": "Dell Server",
       "serverUrl": "http://10.237.93.132/v2",
-      "description": "Dell Production Environment - 10.237.93.132",
+      "description": "Dell Production Environment",
       "location": "Dell Data Center",
       "createdAt": "2026-02-17T00:00:00.000Z",
       "createdBy": "Dell-User",
       "isActive": true
+    },
+    {
+      "id": "sim-lab-1",
+      "name": "Lab Server 1",
+      "serverUrl": "http://192.168.1.91/v2",
+      "description": "General Lab Server",
+      "location": "Building A Lab 1",
+      "createdAt": "2026-02-17T00:00:00.000Z",
+      "createdBy": "Admin",
+      "isActive": true
+    }
+  ],
+  "testSuites": {
+    "user-qa": [],
+    "user-dell": [],
+    "user-dev": []
+  },
+  "currentUser": null,
+  "currentSimnovator": null,
+  "settings": {
+    "autoSync": true,
+    "syncInterval": 30000,
+    "theme": "dark"
+  },
+  "metadata": {
+    "totalUsers": 3,
+    "totalSimnovators": 3,
+    "totalTestSuites": 0,
+    "repository": "https://github.com/nikhilsimnovus/qa-workspace"
+  }
+}
