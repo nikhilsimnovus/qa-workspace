@@ -2,78 +2,46 @@
   "version": "1.0.0",
   "lastUpdated": "2026-02-17T00:00:00.000Z",
   "lastUpdatedBy": null,
-  
   "users": [
     {
-      "id": "user-example",
-      "name": "Example User",
+      "id": "user-qa",
+      "name": "QA-User",
       "createdAt": "2026-02-17T00:00:00.000Z",
-      "notes": "This is an example user - delete after adding your own"
+      "notes": "Quality Assurance Team",
+      "defaultSimnovator": "sim-qa-server"
+    },
+    {
+      "id": "user-dell",
+      "name": "Dell-User",
+      "createdAt": "2026-02-17T00:00:00.000Z",
+      "notes": "Dell Environment User",
+      "defaultSimnovator": "sim-dell-server"
+    },
+    {
+      "id": "user-dev",
+      "name": "Dev-User",
+      "createdAt": "2026-02-17T00:00:00.000Z",
+      "notes": "Development Team",
+      "defaultSimnovator": null
     }
   ],
-  
   "simnovators": [
     {
-      "id": "sim-example-1",
-      "name": "Lab Server 1",
-      "serverUrl": "http://192.168.1.91/v2",
-      "description": "Main laboratory server for testing",
-      "location": "Building A, Lab 1",
+      "id": "sim-qa-server",
+      "name": "QA Server",
+      "serverUrl": "http://192.168.1.95/v2",
+      "description": "QA Testing Environment - 192.168.1.95",
+      "location": "QA Lab",
       "createdAt": "2026-02-17T00:00:00.000Z",
-      "createdBy": "Example User",
+      "createdBy": "QA-User",
       "isActive": true
     },
     {
-      "id": "sim-example-2",
-      "name": "Production Server",
+      "id": "sim-dell-server",
+      "name": "Dell Server",
       "serverUrl": "http://10.237.93.132/v2",
-      "description": "Production environment - use with caution",
-      "location": "Data Center",
+      "description": "Dell Production Environment - 10.237.93.132",
+      "location": "Dell Data Center",
       "createdAt": "2026-02-17T00:00:00.000Z",
-      "createdBy": "Example User",
+      "createdBy": "Dell-User",
       "isActive": true
-    }
-  ],
-  
-  "testSuites": {
-    "user-example": [
-      {
-        "id": "suite-example-1",
-        "name": "Smoke Tests",
-        "description": "Quick smoke tests for basic functionality",
-        "testCaseIds": ["TC001", "TC002", "TC003"],
-        "simnovatorId": "sim-example-1",
-        "createdAt": "2026-02-17T00:00:00.000Z",
-        "lastModified": "2026-02-17T00:00:00.000Z",
-        "tags": ["smoke", "quick", "critical"],
-        "estimatedDuration": "5 minutes"
-      },
-      {
-        "id": "suite-example-2",
-        "name": "Regression Suite",
-        "description": "Full regression test suite",
-        "testCaseIds": ["TC001", "TC002", "TC003", "TC004", "TC005", "TC006"],
-        "simnovatorId": "sim-example-1",
-        "createdAt": "2026-02-17T00:00:00.000Z",
-        "lastModified": "2026-02-17T00:00:00.000Z",
-        "tags": ["regression", "comprehensive"],
-        "estimatedDuration": "30 minutes"
-      }
-    ]
-  },
-  
-  "settings": {
-    "autoSync": true,
-    "syncInterval": 30000,
-    "conflictResolution": "prompt",
-    "theme": "dark"
-  },
-  
-  "metadata": {
-    "totalUsers": 1,
-    "totalSimnovators": 2,
-    "totalTestSuites": 2,
-    "createdAt": "2026-02-17T00:00:00.000Z",
-    "repository": "https://github.com/YOUR-USERNAME/simnovator-workspace"
-  }
-}
