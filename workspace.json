@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-18T05:47:49.035Z",
+  "lastUpdated": "2026-02-18T05:48:17.525Z",
   "lastUpdatedBy": null,
   "users": [
     {
@@ -58,7 +58,18 @@
     }
   ],
   "testSuites": {
-    "user-qa": [],
+    "user-qa": [
+      {
+        "id": "suite-1771393697025",
+        "name": "dell-qa",
+        "testCaseIds": [
+          "3CELLS-HO-24HRS_",
+          "DELL1-UDP-50UE_"
+        ],
+        "simnovatorId": "sim-qa-server",
+        "createdAt": "2026-02-18T05:48:17.025Z"
+      }
+    ],
     "user-dell": [],
     "user-dev": []
   },
