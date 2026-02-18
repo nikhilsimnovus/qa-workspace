@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-18T05:42:04.719Z",
+  "lastUpdated": "2026-02-17T00:00:00.000Z",
   "lastUpdatedBy": null,
   "users": [
     {
@@ -58,25 +58,12 @@
     }
   ],
   "testSuites": {
-    "user-qa": [
-      {
-        "id": "suite-1771393321502",
-        "name": "Dell-QA",
-        "description": "",
-        "testCaseIds": [
-          "DELL1-UDP-50UE_",
-          "DELL4-UDP-128UE_"
-        ],
-        "simnovatorId": "sim-qa-server",
-        "createdAt": "2026-02-18T05:42:01.502Z",
-        "lastModified": "2026-02-18T05:42:01.502Z"
-      }
-    ],
+    "user-qa": [],
     "user-dell": [],
     "user-dev": []
   },
-  "currentUser": "user-qa",
-  "currentSimnovator": "sim-qa-server",
+  "currentUser": null,
+  "currentSimnovator": null,
   "settings": {
     "autoSync": true,
     "syncInterval": 30000,
