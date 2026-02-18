@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-18T05:27:50.707Z",
+  "lastUpdated": "2026-02-17T00:00:00.000Z",
   "lastUpdatedBy": null,
   "users": [
     {
@@ -62,8 +62,8 @@
     "user-dell": [],
     "user-dev": []
   },
-  "currentUser": "user-qa",
-  "currentSimnovator": "sim-qa-server",
+  "currentUser": null,
+  "currentSimnovator": null,
   "settings": {
     "autoSync": true,
     "syncInterval": 30000,
